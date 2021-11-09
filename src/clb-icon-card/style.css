@@ -1,0 +1,39 @@
+.clb-icon-card-area {
+     text-align: center;
+     padding: 20px;
+     padding-top: 40px;
+     transition: all ease-in-out .35s;
+     will-change: transform;
+     border-radius: 5px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.clb-icon-card-area.foreground-text-light, .clb-icon-card-area.foreground-text-light a, .clb-icon-card-area.foreground-text-light h3 {
+     color: #fff;
+}
+
+.clb-icon-card-area.foreground-text-dark, .clb-icon-card-area.foreground-text-dark a, .clb-icon-card-area.foreground-text-dark h3 {
+     color: #222;
+}
+
+.clb-icon-card-area a {
+     text-decoration: none;
+     border-bottom: none;
+}
+
+.clb_card__title {
+     margin-top: 20px;
+}
+
+.clb-icon-card-area:hover {
+     cursor: pointer !important;
+     transform: translate3d(0,-6px,0);
+}
+
+.clb-icon-card-area:hover a {
+     text-decoration: none;
+     border-bottom: none;
+     background: transparent;
+}
